@@ -1,0 +1,158 @@
+/* Home page styles */
+
+/* Header Section */
+header h1 {
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  width: 40px;
+}
+
+nav li:first-of-type {
+  padding-right: 20px;
+}
+
+nav li:last-of-type {
+  margin-left: auto;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+a {
+  color: #6e6d7a;
+}
+
+a:hover {
+  color: #0d0c22;
+}
+
+.active_page {
+  color: #0d0c22;
+}
+
+/* Main Section */
+main {
+  margin: 0 24px;
+}
+
+.main_header {
+  padding: 24px 0;
+}
+
+/* Fruit Section */
+.fruit_group_container h3 {
+  padding-top: 16px;
+}
+
+figcaption {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5px 0 0 5px ;
+}
+
+.fruit_container {
+  padding: 10px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  display: inline-flex;
+}
+
+.fruit_sample {
+  padding: 5px;
+}
+
+.fruit_sample img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.pome_group {
+  background-color: #8fae5e;
+}
+
+.citrus_group {
+  background-color: #f9d44f;
+}
+
+.stone_group {
+  background-color: #ff786c;
+}
+
+.tropical_group {
+  background-color: #c64a88;
+}
+
+
+/* Contact Us Section */
+.contact_header h2 {
+  text-align: center;
+  margin: 48px 0 24px;
+}
+
+.contact_form {
+  text-align: center;
+  height: calc(100vh - 260px);
+  padding-top: 50px;
+}
+
+.contact_form form {
+  display: inline-flex;
+}
+
+.contact_form h3 {
+  padding-bottom: 20px;
+}
+
+.contact_form input {
+  width: 250px;
+  height: 40px;
+}
+
+.contact_form button {
+  width: 70px;
+  height: 40px;
+  margin-left: 5px;
+  font-size: 1.6rem;
+}
+
+/* Footer Section */
+footer {
+  height: 100px;
+  display: flex;
+}
+
+address {
+  height: 100px;
+  font-size: 1.6rem;
+  line-height: 100px;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+}
+
+.social_media {
+  width: 180px;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: space-between;
+}
